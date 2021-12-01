@@ -12,8 +12,8 @@ def partition(user_ids, m,n):
         if user_ids[o]<=middle:
             index = index +1
             user_ids[index], user_ids[o] = user_ids[o], user_ids[index]
-    user_ids[index + 1], user_ids[n] = user_ids[n], user_ids[index + 1]
-    return index+1
+        user_ids[index + 1], user_ids[n] = user_ids[n], user_ids[index + 1]
+        return index+1
 
 
 def quicksort(user_ids,m,n):
