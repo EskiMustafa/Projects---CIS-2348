@@ -1,2 +1,2 @@
-# CIS-2348
-My first repository on GitHub Enterprise
+Projects
+These are the projects I did for my coding class in University of Houston
